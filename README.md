@@ -54,6 +54,5 @@ This program was created by BCBeno.
 
 ## License
 
-This project is licensed under the MIT License - see the [[LICENSE](https://github.com/BCBeno/TextFileTools/blob/main/LICENSE)https://github.com/BCBeno/TextFileTools/blob/main/LICENSE](LICENSE) file for details.
-```
+This project is licensed under the MIT License - see the (https://github.com/BCBeno/TextFileTools/blob/main/LICENSE)[LICENSE] file for details.
 
