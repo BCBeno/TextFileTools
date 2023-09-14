@@ -13,7 +13,7 @@ public class RmDuplicates {
     private GetPath path;
     public void remove() {
         this.duplicates=0;
-        System.out.println("What is the file path?");
+        System.out.println("What is the file path?\nExemple: C:\\Users\\Admin\\Desktop\\Duplicates.txt");
         this.filename=scan.nextLine();
         path= new GetPath(filename);
         RW = new FileReadWrite(this.filename,this.path,"DuplicatesRemoved.txt");
