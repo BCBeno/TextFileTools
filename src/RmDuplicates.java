@@ -14,7 +14,7 @@ public class RmDuplicates {
     public void remove() {
         this.duplicates=0;
         System.out.println("What is the file path?\nExemple: C:\\Users\\Admin\\Desktop\\Duplicates.txt");
-        this.filename=scan.nextLine();
+        this.filename=scan.nextLine().trim();
         path= new GetPath(filename);
         RW = new FileReadWrite(this.filename,this.path,"DuplicatesRemoved.txt");
         RW.FileReadWrite();
