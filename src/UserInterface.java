@@ -24,7 +24,7 @@ public class UserInterface {
                 case 1 -> remove.remove();
                 case 2 -> credit.ShowCredits();
                 case 3 -> {
-                    return;
+                    System.exit(0);
                 }
                 default -> {
                     System.out.print("\033[H\033[2J");
