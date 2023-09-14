@@ -15,10 +15,9 @@ public class UserInterface {
             System.out.println("2. Credits");
             System.out.println("3. Quit");
             try {
-                choice = scan.nextInt();
+                this.choice = scan.nextInt();
             } catch (Exception e) {
-                System.out.println("Something went wrong! Try again!");
-                Start();
+                this.choice = -1;
             }
             switch (choice) {
                 case 1 -> remove.remove();
