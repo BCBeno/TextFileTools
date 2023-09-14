@@ -32,7 +32,7 @@ TextFile Tools is a Java program that helps you remove duplicate lines from text
 
 ## Usage
 
-Duplicate Line Remover is a command-line tool written in Java that allows you to remove duplicate lines from text files. It will also include additional tools and features in the future.
+TextFile Tools is a command-line tool written in Java that allows you to remove duplicate lines from text files. It will also include additional tools and features in the future.
 
 ## Options
 
