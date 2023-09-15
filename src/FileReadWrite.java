@@ -23,20 +23,14 @@ public class FileReadWrite {
             this.scanfile=new Scanner(FileIN);} //Read file with duplicates
         catch (FileNotFoundException e)
         {
-            System.out.println(e.getMessage());
-            System.out.println();
+            System.out.println(e.getMessage() + "\n");
             return;
         }
         try{
             this.FileOUT =new FileWriter(path.getPath()+Program); //Create file
 
-        }catch (IOException e)
-        {
+        }catch (IOException | NullPointerException e) {
             System.out.println(e.getMessage());
-            return;
-        }catch (NullPointerException n)
-        {
-            System.out.println(n.getMessage());
             return;
         }
     }
